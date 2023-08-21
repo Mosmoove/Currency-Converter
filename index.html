@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+    <form action="#">
+        <div class="amount">
+            <p>Amount</p>
+            <input type="text" value = '0'>
+        </div>
+        <div class="drop-list">
+            <div class="from">
+                <p>From</p>
+                <div class="select-box">
+                    <img src="https://www.countryflagicons.com/SHINY/64/US.png" alt="flag">
+                    <select>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                        <option value="AED">AED</option>
+                        <option value="SDG">SDG</option>
+                        <option value="JPY">JPY</option>
+                        <option value="BHD">BHD</option>
+                        <option value="MAD">MAD</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+             <div class="icon"><ion-icon name="swap-horizontal-outline"></ion-icon></div>
+            </div>
+            <div class="to">
+                <p>To</p>
+                <div class="select-box">
+                    <img src="https://www.countryflagicons.com/SHINY/64/SD.png" alt="flag2">
+                    <select>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                        <option value="AED">AED</option>
+                        <option value="SDG">SDG</option>
+                        <option value="JPY">JPY</option>
+                        <option value="BHD">BHD</option>
+                        <option value="MAD">MAD</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="calculate-exchange-rate">1 USD = 601.0 Sudanese Pounds</div>
+    <button>Calculate Exchange Rate</button>
+    </form>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="countries.js"></script>
+    <script src = "index.js"></script>
+</body>
+</html>
